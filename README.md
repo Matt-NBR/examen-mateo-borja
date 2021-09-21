@@ -1,3 +1,8 @@
+### Link de Vercel
+https://examen-mateo-borja.vercel.app/
+
+Nota: El boton para cargar un nuevo consejo funciona localmente, pero no es Vercel, no se porque pasa eso
+
 # Examen-Final
 
 * Escribir una aplicación de React que consuma los datos de la api https://api.adviceslip.com/. Esta api tiene los siguientes endpoints disponibles:
