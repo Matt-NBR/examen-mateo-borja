@@ -35,11 +35,17 @@ const useStyles = makeStyles(() => ({
 }));
 
 export default function RandomAdvice({ advices }) {
+  let favorites = [];
+  
   const classes = useStyles();
   const router = useRouter();
   
   const refreshAdvice = () => {
     router.replace(router.asPath);
+  }
+
+  const addtoFavorites = () => {
+    favorites.push({advices})
   }
 
   return (
